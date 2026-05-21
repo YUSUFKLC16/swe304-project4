@@ -11,7 +11,7 @@ public class StatusController {
     @GetMapping("/api/status")
     public Map<String, String> getStatus() {
         return Map.of(
-                "message", "SWE304 Project 4 application is running on Kubernetes3"
+                "message", "SWE304 Project 4 application is running on Kubernetes5"
         );
     }
 }
